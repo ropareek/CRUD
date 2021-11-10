@@ -1,0 +1,9 @@
+GET http://localhost:5000/products/2
+
+###
+POST http://localhost:5000/customers/signin
+Content-Type: application/json
+
+{
+    "username": "rohan2"
+}
